@@ -1,0 +1,115 @@
+/* 
+    Created on : 16-Oct-2020, 11:36:13 AM
+    Author     : alexchoe
+*/
+
+.root{
+    -fx-font-family: "Arial";
+    -fx-background-color: white;
+}
+.label{
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
+}
+.text-field{
+    -fx-font-size: 11pt;
+}
+.text-area{
+    -fx-font-size: 11pt;
+}
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: #00456e;
+    -fx-background-radius: 4;
+    -fx-font-size: 11pt;
+    -fx-pref-width: 80px;
+}
+.choice-box .label{
+    -fx-text-fill: black;
+    -fx-font-size: 11pt;
+}
+
+.choice-box .context-menu {
+    -fx-pref-width: 400;
+}
+
+.table-view{
+    -fx-font-size: 11pt;
+}
+.table-view .column-header{
+    -fx-background-color: #00456e;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: center-left;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+}
+
+
+.table-view .cell .label{
+    -fx-text-fill: black;
+    -fx-font-size: 11pt;
+}
+
+.combo-box-base{
+    -fx-pref-width: 85px;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-font-size: 11pt;
+}
+.combo-box .list-cell {
+    -fx-padding: 1 1 1 1;
+    -fx-border-insets: 2 2 2 2;
+}
+
+.combo-box .list-view{
+    -fx-pref-height: 250px;
+}
+
+.table-column {
+  -fx-alignment: center-left;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: #abd0f7;
+    -fx-table-cell-border-color: transparent;
+}
+.table-row-cell{
+    -fx-table-cell-border-color: transparent;
+}
+
+
+#LoginBackground{
+    -fx-background-image: url("LoginBackground.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.tab-header-area .tab-header-background{
+    -fx-background-color: #bdbdbd;
+}
+
+.tab-header-area .tab-label{
+    -fx-font-size: 12pt;
+}
+.tab:selected{
+    -fx-background-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: white white white white;
+}
+.tab{
+    -fx-background-color: #969696;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #a3a3a3 #a3a3a3 #a3a3a3 #a3a3a3;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-width: 0;
+    -fx-border-color: -fx-focus-color;
+}
+
+
+
