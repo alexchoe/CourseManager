@@ -146,8 +146,6 @@ public class HomeScreen {
         AnchorPane.setTopAnchor(home, 12.0);
         AnchorPane.setRightAnchor(home, 12.0);
         
-        //BorderPane.setMargin(topMenu, new Insets(0, 10, 0, 10));
-        
         //Layout
         topMenu.getChildren().addAll(homeLabel, home);
         homeLayout.setTop(topMenu);
